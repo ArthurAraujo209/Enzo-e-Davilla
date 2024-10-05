@@ -1,0 +1,26 @@
+@media(max-width: 640px){
+    
+    img{
+        margin-left: 35px;
+        width: 250px;
+    }
+    .contador{
+        font-size: 15px;
+        min-width: 200px;
+        
+    }
+    .num{
+        font-size: 20px;
+    }
+    .texto{
+        position: absolute;
+        margin-top: 50px;
+        text-align: center;
+        width: 300px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .cartao{
+        height: 800px;
+    }
+}

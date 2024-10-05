@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family:  sans-serif;
+    color: #ffffff;
+}
+
+body{
+    background-color: rgb(33, 33, 185);
+
+}
+
+.cartao{
+    background-color: rgb(72, 72, 219);
+    height: 1624px;
+    width: 80%;
+    margin: 10%;
+    border-radius: 50px;
+}
+.foto{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 25px;
+}
+h3{
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.num{
+    font-size: 50px;
+}
+.texto{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+    margin-left: 100px;
+}
+.contador{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    min-width: 100vh;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+    justify-content: space-between;
+}
+span{
+    text-align: center;
+}
+
+.dFoto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
